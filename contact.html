@@ -13,7 +13,7 @@
 			<ul class="menu">
 				<li><a href="index.html">Accueil</a></li>
 				<li><a href="skills.html">Compétences</a></li>
-				<li><a href="projects.html">Projets</a></li>
+				<li><a href="projects.html">Expériences</a></li>
 				<li><a href="cv.html">CV</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
@@ -21,9 +21,38 @@
 	</header>
 
 
-    <section class="hero">	
-		<h1>Contacts</h1>
-	</section>
+	<section class="contact-container">
+        <h1>Me contacter</h1>
+        <p>N'hésitez pas à me contacter pour toute question ou collaboration !</p>
+
+        <div class="contact-info">
+            <p><strong>Email :</strong> <a href="mailto:ton.email@example.com">gabriel.richard.briu@gmail.com</a></p>
+            <p><strong>Téléphone :</strong> +33 7 81 16 71 57</p>
+            <p><strong>LinkedIn :</strong> <a href="https://linkedin.com/in/gabriel-richard-692163352" target="_blank">linkedin/gabriel-richard</a></p>
+            <p><strong>GitHub :</strong> <a href="https://github.com/gabriel-richard22" target="_blank">https://github.com/gabriel-richard22</a></p>
+        </div>
+
+		
+
+		<div>
+			<p>Vous pouvez également remplir ce formulaire pour me contacter directement:</p>
+		</div>
+
+		
+
+        <form action="https://formspree.io/f/movjykyd" method="POST" class="contact-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
 
 
 	<script src="script.js"></script>

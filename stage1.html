@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="header">
+		<nav class="navbar">
+			<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+			<ul class="menu">
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="skills.html">Compétences</a></li>
+				<li><a href="projects.html">Expériences</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	
+	
+	<section class="project-detail">
+		<div class="project-header">
+			<img src="images/ccagglo.jpg" alt="Stage chez Carcassonne Agglo" class="project-image">
+			<div class="project-info">
+				<h1>Stage - Carcassonne Agglo</h1>
+				<p><strong>Période :</strong> Juin 2019</p>
+				<p class="petit">Stage d'un mois dans le cadre de la première année de DUT STID</p>
+			</div>
+		</div>
+		<p class="cadre"><i>
+			Carcassonne Agglo est une communauté d'agglomération de l'Aude (Occitanie) regroupant plusieurs communes autour de Carcassonne. 
+			Elle gère des services intercommunaux comme l’aménagement du territoire, les transports, l’environnement, l’eau, 
+			la culture et le développement économique.
+			<br>
+			<a class="btn" href="https://www.carcassonne-agglo.fr/fr/index.html" target="_blank">Accès à Carcassonne Agglo</a>
+		</i></p>
+		<p class="grand"><strong>Missions :</strong> Réalisation d'une enquête statistique</p>
+	
+
+		
+		
+		
+		<ul class="project-phase">
+			<li class="phase">
+				<p><strong>Phase 1 : Collecte des données (2 semaines)</strong></p>
+				<ul>
+					<li><p>Déplacement dans les 82 communautés de Carcassonne Agglo</p></li>
+					<li><p>Interaction avec les sondés pour les accompagner dans le remplissage du formulaire</p></li>
+					<li><p>Diffusion du questionnaire par email et par voie postale</p></li>
+				</ul>
+			</li>
+			<li class="phase">
+				<p><strong>Phase 2 : Analyse et restitution des données (2 semaines)</strong></p>
+				<ul>
+					<li><p>Traitement des données avec Sphinx</p></li>
+					<li><p>Analyse approfondie via Sphinx et Excel</p></li>
+					<li><p>Visualisation des résultats avec Excel et Infogram</p></li>
+					<li><p>Rédaction d'un rapport détaillé</p></li>
+				</ul>
+			</li>
+		</ul>
+
+
+		<section class="outils">
+			<p class="grand"><strong>Languages et Outils utilisés</strong></p>
+			<a href="https://www.lesphinx-developpement.fr/" target="_blank">
+				<img src="images/sphinx.jpg" alt="Logiciel Sphinx" class="project-image">
+				<div class="etiquette">
+					Sphinx est un logiciel de traitement de données statistiques, principalement utilisé pour la création de questionnaires, 
+					la collecte de réponses et l'analyse des résultats. 
+					Il est optimisé pour les enquêtes et permet une analyse avancée des données en temps réel.
+					</br>
+					Cliquez pour en savoir plus
+				</div>
+			</a>						
+			<img src="images/excel.jpg" alt="Logiciel Excel" class="project-image">
+			<img src="images/word1.jpg" alt="Logiciel Word" class="project-image">
+			<a href="https://infogram.com/fr" target="_blank">
+				<img src="images/infogram.jpg" alt="Logiciel Infogram" class="project-image">
+				<div class="etiquette">
+					Infogram est un outil de création de visuels interactifs, permettant de concevoir des infographies, des graphiques et des rapports visuels. 
+					Il facilite la présentation de données complexes de manière claire et attrayante, avec des options de partage en ligne.
+					</br>
+					Cliquez pour en savoir plus
+				</div>
+			</a>
+		</section>
+		
+		<p class="grand"><strong>Compétences développées</strong></p>
+		
+		<div class="skills-grid">
+			<div class="skill-box blue">
+				<h3>Gestion et Exploitation des Données</h3>
+			</div>
+			<div class="skill-box green">
+				<h3>Analyse Statistique et Data Science</h3>
+			</div>           
+			<div class="skill-box red">
+				<h3>Informatique Décisionnelle et Reporting</h3>
+			</div>
+			<div class="skill-box black">
+				<h3>Compétences Transversales et Professionnelles</h3>
+			</div>
+		</div>
+		<a class="btn" href="skillsDet.html">Détails Compétences</a>
+		
+		
+		<a href="projects.html" class="btn">Retour aux projets</a>
+	</section>
+
+	
+	
+	<script src="script.js"></script>
+</body>
+</html>

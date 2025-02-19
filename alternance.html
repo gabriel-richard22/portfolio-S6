@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="header">
+		<nav class="navbar">
+			<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+			<ul class="menu">
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="skills.html">Compétences</a></li>
+				<li><a href="projects.html">Expériences</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	
+	
+	<section class="project-detail">
+		<div class="project-header">
+			<img src="images/psup.jpg" alt="Alternance chez Parcoursup" class="project-image">
+			<div class="project-info">
+				<h1>Alternance - Parcoursup</h1>
+				<p><strong>Période :</strong> Septembre 2024 - Juin 2025</p>
+				<p class="petit">Alternance dans le cadre de mon année de BUT3</p>
+			</div>
+		</div>
+		<p class="cadre"><i>
+			Parcoursup est la plateforme nationale d’admission en première année de l’enseignement supérieur en France. 
+			Elle permet aux lycéens, étudiants en réorientation et candidats en reprise d’études de formuler leurs vœux 
+			pour intégrer une formation après le baccalauréat.
+			<br>
+			<a class="btn" href="https://www.parcoursup.gouv.fr/" target="_blank">Accès à Parcoursup</a>
+		</i></p>
+		<p class="grand"><strong>Première mission :</strong> Optimisation / Amélioration de l'offre de formation </p>
+		<p>
+			En tant qu'usager du SCN, il faut permettre depuis l'écran de gestion d'une formation d'afficher la liste des "liens" établissements d'un établissement composante.
+			Mettre en place un formulaire qui permettra d'ajouter une nouvelle composante sur cet établissement gestionnaire.
+		</p> 
+
+
+		
+		
+		<ul class="project-phase">
+			<li class="phase">
+				<p><strong>Première mission</strong></p>
+				<ul>
+					<li><p>Requêtes SQL, création de fonctions et de PK</p></li>
+					<li><p>Mise en place d'une API</p></li>
+					<li><p>Formation sur la sécurité des applications</p></li>
+					<li><p>Mise à jour de page web existantes</p></li>		
+					<li><p>Optimisation de l'offre de formation</p></li>										
+				</ul>
+			</li>
+		</ul>
+
+		<section class="outils">
+			<p class="grand"><strong>Languages et Outils utilisés</strong></p>
+			<img src="images/sts.jpg" alt="Logiciel STS" class="project-image">
+			<img src="images/schemaSpy.jpg" alt="Logiciel Schema Spy" class="project-image">
+			<img src="images/sqlDev.jpg" alt="Logiciel SQL Developer" class="project-image">
+			<img src="images/jira.jpg" alt="Logiciel Jira" class="project-image">
+			<img src="images/postman.jpg" alt="Logiciel Postman" class="project-image">
+			<img src="images/sql.jpg" alt="Language SQL" class="project-image">
+			<img src="images/java.jpg" alt="Language JAVA" class="project-image">
+			<img src="images/js.jpg" alt="Languages Web" class="project-image">
+		</section>
+
+		
+		
+		<p class="grand"><strong>Compétences développées :</strong></p>
+		
+		
+		<div class="skills-grid">
+			<div class="skill-box blue">
+				<h3>Concevoir et Développer des Applications</h3>
+			</div>
+			<div class="skill-box green">
+				<h3>Optimisation et Algorithmique</h3>
+			</div>
+			<div class="skill-box red">
+				<h3>Gestion et Exploitation des Données</h3>
+			</div>
+			<div class="skill-box black">
+				<h3>Conduite de Projets et Analyse Métier</h3>
+			</div>
+        </div>
+		
+		<a class="btn" href="skillsDet.html">Détails Compétences</a>
+		<a href="projects.html" class="btn">Retour aux projets</a>
+		
+	</section>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
